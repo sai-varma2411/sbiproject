@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: darkcyan;
+}
+#heading h1{
+	color: white;
+	text-align: center;
+	font-family: cursive;
+	font-size: 30px;
+	font-weight: 10px;
+}
+#heading{
+	height: auto;
+	width: auto;
+	border: 2px solid red;
+	background-color: darkblue;
+}
+#body img{
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+#body{
+	width: 100%;
+	height: 800px;
+	border: 2px solid rebeccapurple;
+	background-image: url("https://static.toiimg.com/thumb/msid-102424002,imgsize-7290,width-400,resizemode-4/102424002.jpg");
+
+	background-repeat: no-repeat;
+
+	background-size: cover;
+}
+
+#footer{
+	width: 100%;
+	height: 80px;
+	border: 2px solid yellow;
+	background-color: darkblue;
+	text-align: center;
+	color: white;
+}
+
+
+
+
+
+#body h2{
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 60px;
+	font-weight: 30px;
+	color: darkmagenta;
+	position: relative;
+	top: 30px;
+	left: 20px;
+	 animation-name: example;
+  animation-duration: 7s;
+}
+@keyframes example {
+  0%   {color: red;}
+  5%  {color: yellow;}
+  10%  {color: blue;}
+  15% {color: green;}
+    20%   {color: red;}
+  25%  {color: yellow;}
+  30%  {color: blue;}
+  35% {color: green;}
+    40%   {color: red;}
+  45%  {color: yellow;}
+  50%  {color: blue;}
+  55% {color: green;}
+    60%   {color: red;}
+  65%  {color: yellow;}
+  70%  {color: blue;}
+  75% {color: green;}
+   80%   {color: red;}
+  85%  {color: yellow;}
+  90%  {color: blue;}
+  95% {color: green;}
+    100%   {color: red;}
+ 
+}
+
+
+#container{
+	width: 30%;
+	height: 200px;
+	border: 2px solid none;
+	background-color: transparent;
+	position: relative;
+	left: 150px;
+	top: 200px;
+}
+label{
+	font-style: oblique;
+	font-weight: 60px;
+	font-size: 20px;
+	color: white;
+}
+input{
+	background-color: transparent;
+	font-size: 20px;
+}
